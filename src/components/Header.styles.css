@@ -1,0 +1,27 @@
+.header-container {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 26rem;
+  margin-bottom: 2rem;
+}
+.header-title {
+  color: hsl(0, 0%, 98%);
+  font-size: 3rem;
+}
+
+@media (max-width: 650px) {
+  .header-title {
+    font-size: 2rem;
+  }
+  .header-container {
+    gap: 20rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    gap: 15rem;
+  }
+}
